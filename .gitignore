@@ -1,0 +1,17 @@
+# Data and derived artefacts are archived separately (see README); nothing under
+# data/ or results/ is tracked in this repository.
+data/
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+.ipynb_checkpoints/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
